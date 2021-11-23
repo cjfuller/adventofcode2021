@@ -1,0 +1,4 @@
+name = "adventofcode2021"
+uuid = "fc5ae0aa-6b09-4b74-9a00-aa4430ab560c"
+authors = ["Colin Fuller <cjfuller@gmail.com>"]
+version = "0.1.0"
