@@ -11,4 +11,13 @@ function load_input(day::Int, strip::Bool = true)::String
     end
 end
 
+function input_lines(day::Int, strip::Bool = true)::Array{String}
+    lines = split(load_input(day, true), '\n')
+    if strip
+        map(Base.strip, lines)
+    else
+        lines
+    end
+end
+
 end
